@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Versatile Landing, Blog & Docs Template for a Simplified Web Presence
 
 ![ScrewFast](https://github.com/mearashadowfax/ScrewFast/assets/125820963/cdf299bd-414a-4a2d-baf0-d188bb4709c7)
@@ -691,3 +692,7 @@ If you're interested in helping, you can contribute in several ways:
 This project is released under the MIT License. Please read the [LICENSE](https://github.com/mearashadowfax/ScrewFast/blob/main/LICENSE) file for more details.
 
 **Note:** This website template has no affiliation with the companies displayed. Logos are used for demonstration purposes only and should be replaced in customized versions.
+=======
+# by-website
+battery yard website
+>>>>>>> 15111939d26ce1e17db9309c2bf29187f9a3c27f
