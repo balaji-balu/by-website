@@ -2,7 +2,7 @@
 const navBarLinks = [
   { name: "Home", url: "/" },
   // { name: "Products", url: "/products" },
-  { name: "Charging", url: "/charging" },
+  { name: "Battery Charging", url: "/charging" },
   { name: "Telematics", url: "/telematics" },
   { name: "Services", url: "/services"},
   // { name: "Blog", url: "/blog" },
@@ -15,18 +15,19 @@ const footerLinks = [
     links: [
       // { name: "Documentation", url: "/welcome-to-docs/" },
       // { name: "Tools & Equipment", url: "/products" },
-      { name: "Telematics Services", url: "/telematics" },
-      { name: "Charger Services", url: "/charging" },
-      { name: "Services", url: "/services" },
+      { name: "Battery Charging", url: "/charging" },
+      { name: "Telematics", url: "/telematics" },
+      { name: "Engineering Services", url: "/services" },
     ],
   },
   {
     section: "Company",
     links: [
       { name: "About us", url: "/about" },
+      { name: "Contact us", url: "/contact" },
       // { name: "Blog", url: "/blog" },
-      { name: "Careers", url: "#" },
-      { name: "Customers", url: "#" },
+      // { name: "Careers", url: "#" },
+      // { name: "Customers", url: "#" },
     ],
   },
 ];
