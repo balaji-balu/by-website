@@ -6,6 +6,8 @@ import NavLink from "@components/ui/links/NavLink.astro";
 import enStrings from "@utils/navigation.ts";
 import frStrings from "@utils/fr/navigation.ts";
 import BrandLogo from "@components/BrandLogo.astro";
+//import svgReference from '@images/cellerite.svg';
+import svgReference from '@images/cellerite-logo-v12.svg';
 //import LanguagePicker from "@components/ui/LanguagePicker.astro";
 
 // Select the correct translation based on the page's lang prop:
@@ -29,7 +31,9 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
         href={homeUrl}
         aria-label="Brand"
       >
-        <BrandLogo class="h-auto w-24" />
+        <img class="h-auto w-28" src={svgReference.src} alt="image description" />
+        <p class="sm:block hidden font-light italic text-base">&nbsp;&nbsp;&nbsp;&nbsp;Fueling Aspirations for a Better Tomorrow</p>
+        <!--BrandLogo class="h-auto w-24" /-->
       </a>
       <!-- Collapse toggle for smaller screens -->
       <div class="ml-auto mr-5 md:hidden">

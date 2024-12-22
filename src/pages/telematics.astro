@@ -36,9 +36,9 @@ interface Article {
 const articles: Article[] = [
   {
     isRightSection: true,
-    title: "Charging Management System",
+    title: "Battery Health Monitoring System",
     subTitle:
-      "Comprehensive software solutions for monitoring, controlling, and optimizing EV charging networks. Real-time analytics and reporting to enhance operational efficiency.",
+      "Our Battery Health Monitoring System offers real-time tracking of battery conditions, enabling proactive management of battery health. By continuously monitoring parameters such as charge cycles, temperature, voltage, and overall performance, we ensure that your batteries remain in optimal condition, reducing the likelihood of unexpected failures. This system helps extend battery life, optimize performance, and reduce maintenance costs.",
     single: false,
     imgOne: blueprints,
     imgOneAlt: "Blueprints and digital tablet with construction plans.",
@@ -47,9 +47,9 @@ const articles: Article[] = [
   },
   {
     isRightSection: false,
-    title: "Customized EV Charging Infrastructure Design",
+    title: "AI-Based Battery Life Prediction",
     subTitle:
-      "End-to-end design and implementation of EV charging systems tailored to client requirements. Expertise in site assessment, load management, and grid integration..",
+      "Leveraging advanced AI-Based Battery Life Prediction, we help you anticipate and plan for battery replacements and maintenance. Our machine learning algorithms analyze historical data and operational patterns to predict battery degradation over time. This allows for better fleet management, minimizes downtime, and ensures that batteries are used efficiently, reducing total cost of ownership.",
     img: beforeAfter,
     imgAlt: "Construction site before and after",
     btnExists: true,
@@ -58,9 +58,9 @@ const articles: Article[] = [
   },
   {
     isRightSection: true,
-    title: "Maintenance and Support",
+    title: "Battery Telemetry for Commercial EV Fleets",
     subTitle:
-      "Proactive and reactive maintenance services to ensure minimal downtime. Remote diagnostics and updates to keep charging systems running smoothly.",
+      "Our Battery Telemetry for Commercial EV Fleets is designed to enhance fleet management for EV operators. With continuous battery performance monitoring, fleet managers gain real-time insights into battery health, usage patterns, and charging behaviors. This data-driven approach supports predictive maintenance, helping operators optimize energy consumption, extend battery life, and reduce operational costs.",
     single: false,
     imgOne: constructionWorkers,
     imgOneAlt: "Construction workers orchestrating a project",
@@ -69,18 +69,18 @@ const articles: Article[] = [
   },
   {
     isRightSection: false,
-    title: "Consultation Services",
+    title: "Battery Safety Monitoring Systems",
     subTitle:
-      "Expert advisory for businesses and municipalities planning to invest in EV charging infrastructure. Strategic insights on scaling operations and adopting the latest technologies",
+      "Safety is paramount in battery management, and our Battery Safety Monitoring Systems are built to detect and mitigate potential hazards. From overcharging to thermal runaway, our system uses advanced sensors and data analytics to identify and alert users about risks before they escalate. Ensuring the safety of your fleet and infrastructure is at the core of what we do, making our solutions a reliable partner in high-risk environments.",
     img: usingTools,
     imgAlt:
       "Man in orange and black vest wearing white helmet holding yellow and black power tool",
   },
   {
     isRightSection: true,
-    title: "Energy Optimization Solutions",
+    title: "Data Analytics Platform for Battery Performance",
     subTitle:
-      "Implementation of energy-efficient practices to reduce costs and environmental impact. Smart energy storage integration and grid interaction management.",
+      "Our Data Analytics Platform for Battery Performance aggregates and analyzes vast amounts of telemetry data to provide actionable insights. By processing data on charging patterns, temperature fluctuations, and energy usage, our platform enables you to make data-driven decisions that improve battery performance, operational efficiency, and cost-effectiveness. It’s a tool designed to optimize every aspect of battery utilization and operational strategy.",
     single: false,
     imgOne: progressBuilding,
     imgOneAlt: "In progress building structure",
@@ -90,9 +90,18 @@ const articles: Article[] = [
     btnTitle: "Read more",
     btnURL: "#",
   },
+  {
+    isRightSection: false,
+    title: "Remote Battery Diagnostics",
+    subTitle:
+      "Remote Battery Diagnostics allows for the seamless detection and resolution of battery issues without the need for physical inspections. Our solution uses telemetry data to diagnose performance anomalies, identify early-stage faults, and remotely analyze battery health. This reduces the need for on-site maintenance and accelerates issue resolution, improving uptime and reducing service costs for businesses.",
+    img: usingTools,
+    imgAlt:
+      "Man in orange and black vest wearing white helmet holding yellow and black power tool",
+  },
 ];
 
-const pageTitle: string = `Services | ${SITE.title}`;
+const pageTitle: string = `Telematics | ${SITE.title}`;
 ---
 
 <MainLayout
@@ -115,8 +124,8 @@ const pageTitle: string = `Services | ${SITE.title}`;
 >
   <!--MainSection is the introductory section of the page, it also contains a CTA button-->
   <MainSection
-    title="Telematics"
-    subTitle="Cellerite Systems is at the forefront of innovation in Electric Vehicle (EV) charging solutions, offering a comprehensive range of cutting-edge technologies and services to cater to diverse customer needs. Our focus is on delivering reliable, efficient, and sustainable charging infrastructure that supports the transition to electric mobility."
+    title="Telematics Solutions for Battery Management"
+    subTitle="We provide cutting-edge, open source telematics stack to optimize battery performance, safety, and longevity. Some of the advantages are White-labeled Telematics solutions, Battery Health Monitoring System, Battery Life Prediction, Battery Safety Monitoring, Integrations with Data Analytics Platforms, Remote Battery Diagnostics."
     btnExists={true}
     btnTitle="Schedule a Consultation"
     btnURL="#"
@@ -159,15 +168,4 @@ const pageTitle: string = `Services | ${SITE.title}`;
     })
   }
 
-  <FeaturesStatsAlt
-    title="Why Choose Cellerite Systems?"
-    subTitle="Transform your ideas into tangible results with ScrewFast tools. Whether you're starting with a sketch on a napkin or diving into a comprehensive construction project, our tools are engineered to help you build with confidence."
-    benefits={[
-      "Technological Excellence: We leverage state-of-the-art technology to deliver world-class EV charging solutions.",
-      "Sustainability Focus: Our renewable-integrated and energy-efficient products help create a greener future.",
-      "Customization and Flexibility: Tailored solutions to meet the unique needs of each client.",
-      "End-to-End Solutions: From hardware to software, we cover every aspect of EV charging.",
-      "Experienced Team: Decades of expertise in EV charging and energy systems.",
-    ]}
-  />
 </MainLayout>
