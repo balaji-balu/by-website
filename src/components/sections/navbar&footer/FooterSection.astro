@@ -78,7 +78,7 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafte
     >
       <div class="flex items-center justify-between">
         <p class="text-sm text-neutral-600 dark:text-neutral-400">
-          © <span id="current-year"></span> {SITE.title}. 
+          © <span id="">2018-2025</span> {SITE.title}. 
           <a class="rounded-lg font-medium underline underline-offset-2 outline-none ring-zinc-500" 
             href="#" data-hs-overlay="#hs-terms-and-conditions">
           Terms and Conditions.</a>
@@ -105,13 +105,17 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafte
           ><Icon name="facebookFooter" />
         </FooterSocialLink>
 
+        <FooterSocialLink url={strings.socialLinks.linkedin}
+          ><Icon name="linkedIn" />
+        </FooterSocialLink>
+
         <FooterSocialLink url={strings.socialLinks.x}
           ><Icon name="xFooter" /></FooterSocialLink
         >
 
         <!-- FooterSocialLink url={strings.socialLinks.github}
           ><Icon name="githubFooter" />
-        </FooterSocialLink-->
+        </FooterSocialLink>
 
         <FooterSocialLink url={strings.socialLinks.google}
           ><Icon name="googleFooter" />
@@ -119,7 +123,7 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafte
 
         <FooterSocialLink url={strings.socialLinks.slack}
           ><Icon name="slackFooter" />
-        </FooterSocialLink>
+        </FooterSocialLink-->
       </div>
     </div>
 
