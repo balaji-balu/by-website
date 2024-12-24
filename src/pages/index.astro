@@ -16,6 +16,11 @@ import faqs from "@data/faqs.json";
 import features from "@data/features.json";
 import pricing from "@data/pricing.json";
 import featureImage from "@images/features-image.avif";
+import telematics from "@images/from-s/7.jpg";
+import charging from "@images/from-s/15.jpg";
+import designs from "@images/from-s/66.jpg";
+import renewableEnergy from "@images/from-s/8.jpg";
+import iot from "@images/from-s/57.jpg";
 import construction from "@images/construction-image.avif";
 import tools from "@images/automated-tools.avif";
 import dashboard from "@images/dashboard-image.avif";
@@ -64,8 +69,8 @@ const avatarSrcs: Array<string> = [
         heading: "We offer white-labeled Telematics solutions",
         content:
           "We provide cutting-edge, open source telematics stack to optimize battery performance, safety, and longevity.",
-        svg: "tools",
-        src: tools,
+        svg: "telecom",
+        src: telematics,
         alt: "Yellow and black heavy equipment on brown grass field",
         first: true,
       },
@@ -73,24 +78,24 @@ const avatarSrcs: Array<string> = [
         heading: "Battery Charging",
         content:
           "We offer innovative Electric Vehicle (EV) charging solutions, featuring a wide range of advanced technologies and services designed to meet diverse customer needs. Our mission is to deliver reliable, efficient, and sustainable charging infrastructure, supporting the transition to a future of electric mobility.",
-        svg: "house",
-        src: construction,
+        svg: "sparks",
+        src: charging,
         alt: "Gray metal building frame near tower crane during daytime",
       },
       {
         heading: "Battery Designs",
         content:
           "We specialize in designing and developing custom battery solutions for a wide range of applications. Our offerings include CAD-based design services, customized Battery Management System (BMS) development, and testing services.",
-        svg: "house",
-        src: construction,
+        svg: "tools",
+        src: designs,
         alt: "Gray metal building frame near tower crane during daytime",
       },
       {
         heading: "Engineering Services for Renewable Energy Providers",
         content:
           "We provide end-to-end solutions for renewable energy, combining business extension services with telematics systems specifically designed for solar and other renewable energy providers.",
-        svg: "dashboard",
-        src: dashboard,
+        svg: "sunCloud",
+        src: renewableEnergy,
         alt: "A screenshot or graphic representation of the intuitive dashboard",
         second: true,
       },
@@ -98,8 +103,8 @@ const avatarSrcs: Array<string> = [
         heading: "Embedded Systems and IoT Services",
         content:
           "We specialize in the design and development of custom Battery Management Systems (BMS), embedded applications, smartphone apps, and connected solutions, all tailored to meet your unique requirements.",
-        svg: "house",
-        src: construction,
+        svg: "dashboard",
+        src: iot,
         alt: "Gray metal building frame near tower crane during daytime",
       },
     ]}
