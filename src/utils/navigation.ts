@@ -27,7 +27,7 @@ const footerLinks = [
       // { name: "Tools & Equipment", url: "/products" },
       { name: "Battery Design", url: "#" },
       { name: "Embedded and IoT", url: "#" },
-      { name: "Renewable Energy", url: "" },
+      { name: "Renewable Energy", url: "#" },
     ],
   },
   // {
