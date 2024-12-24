@@ -4,32 +4,42 @@ const navBarLinks = [
   // { name: "Products", url: "/products" },
   { name: "Battery Charging", url: "/charging" },
   { name: "Telematics", url: "/telematics" },
-  { name: "Services", url: "/services"},
+  // { name: "Services", url: "/services"},
   // { name: "Blog", url: "/blog" },
   { name: "Contact", url: "/contact" },
 ];
 // An array of links for footer
 const footerLinks = [
   {
-    section: "Ecosystem",
+    section: "Solutions",
     links: [
       // { name: "Documentation", url: "/welcome-to-docs/" },
       // { name: "Tools & Equipment", url: "/products" },
       { name: "Battery Charging", url: "/charging" },
       { name: "Telematics", url: "/telematics" },
-      { name: "Engineering Services", url: "/services" },
+      // { name: "Engineering Services", url: "/services" },
     ],
   },
   {
-    section: "Company",
+  section: "Services",
     links: [
-      { name: "About us", url: "/about" },
-      { name: "Contact us", url: "/contact" },
-      // { name: "Blog", url: "/blog" },
-      // { name: "Careers", url: "#" },
-      // { name: "Customers", url: "#" },
+      // { name: "Documentation", url: "/welcome-to-docs/" },
+      // { name: "Tools & Equipment", url: "/products" },
+      { name: "Battery Design", url: "#" },
+      { name: "Embedded and IoT", url: "#" },
+      { name: "Renewable Energy", url: "" },
     ],
   },
+  // {
+  //   section: "Company",
+  //   links: [
+  //     // { name: "About us", url: "/about" },
+  //     { name: "Contact us", url: "/contact" },
+  //     // { name: "Blog", url: "/blog" },
+  //     // { name: "Careers", url: "#" },
+  //     // { name: "Customers", url: "#" },
+  //   ],
+  // },
 ];
 // An object of links for social icons
 const socialLinks = {

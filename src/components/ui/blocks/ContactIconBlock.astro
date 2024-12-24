@@ -4,6 +4,7 @@ const {
   heading,
   content,
   isAddressVisible,
+  cinContent, 
   addressContent,
   isLinkVisible,
   linkTitle,
@@ -16,6 +17,7 @@ interface Props {
   heading?: string;
   content?: string;
   isAddressVisible?: boolean;
+  cinContent?: string;
   addressContent?: string;
   isLinkVisible?: boolean;
   linkTitle?: string;
@@ -41,6 +43,7 @@ fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
     </h3>
     <!-- Content of the section -->
     <p class="mt-1 text-sm text-neutral-600 dark:text-neutral-400">{content}</p>
+    <p class="mt-1 text-sm text-neutral-600 dark:text-neutral-400">{cinContent}</p>
     <!-- Conditional rendering of address content if isAddressVisible is true -->
     {
       isAddressVisible ? (
