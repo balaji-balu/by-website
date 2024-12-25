@@ -2,8 +2,8 @@
 const navBarLinks = [
   { name: "Home", url: "/" },
   // { name: "Products", url: "/products" },
-  { name: "Battery Charging", url: "/charging" },
-  { name: "Telematics", url: "/telematics" },
+  // { name: "Battery Charging", url: "/charging" },
+  // { name: "Telematics", url: "/telematics" },
   // { name: "Services", url: "/services"},
   // { name: "Blog", url: "/blog" },
   { name: "Contact", url: "/contact" },
@@ -15,8 +15,8 @@ const footerLinks = [
     links: [
       // { name: "Documentation", url: "/welcome-to-docs/" },
       // { name: "Tools & Equipment", url: "/products" },
-      { name: "Battery Charging", url: "/charging" },
-      { name: "Telematics", url: "/telematics" },
+      { name: "Battery Charging", url: "#" },
+      { name: "Telematics", url: "#" },
       // { name: "Engineering Services", url: "/services" },
     ],
   },
